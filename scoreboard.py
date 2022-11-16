@@ -13,7 +13,6 @@ class Scoreboard(Turtle):
         self.goto(-280, 250)
         self.update_scoreboard()
 
-
     def update_scoreboard(self):
         self.clear()
         self.color("white")
@@ -29,4 +28,3 @@ class Scoreboard(Turtle):
         self.write(f"GAME OVER", align="center", font=("Chiller", 50, "normal"))
         self.goto(0, -280)
         self.write(f"Made by Zikron", align="center", font=("Constantia", 14, "normal"))
-
